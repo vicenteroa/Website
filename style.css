@@ -1,0 +1,104 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   /*FUENTE*/
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Textos-Principales,.sobrenosotros,.contenedor-contacto,.clase-trabajo{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    /*background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(25, 91%, 54%, 0.63), hsla(180, 20%, 50%, 0.664)),url(img/backgroundprincipal.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(25, 91%, 54%, 0.63), hsla(180, 20%, 50%, 0.664)),url(img/backgroundprincipal.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Textos-Principales{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 2em;
+}
+.contendor-redirreciones,a{
+    color:aliceblue;
+    font-weight: normal;
+    background-color: hsla(180, 1%, 23%, 0.986);
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 15px 0 0;
+
+}
+.imagen-about-as{
+    float: left;
+    border-radius: 40px;  
+}
+.contenido-aboutme{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 1px;
+}
+.me{
+    color:#65c7c7;
+    text-align: center;
+    position: relative;
+    left: 167px;
+    top: 179px;
+    font-size: 3em;
+}
+.contenido-aboutme{
+    position: relative;
+    left: 1 px;
+}
+
+.contenedor-contacto{
+    max-width: 1920px;
+    flex-direction: column;
+    width: 100%;
+    /*background: -webkit-linear-gradient(to right, hsla(25, 91%, 54%, 0.63), hsla(180, 20%, 50%, 0.664)),url(../Portafolio/backgroundprincipal.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, hsla(25, 91%, 54%, 0.63), hsla(180, 20%, 50%, 0.664)),url(../Portafolio/backgroundprincipal.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: hsla(36, 96%, 38%, 0.637);
+    position: relative;
+    top: 1px;
+}
+.contac-me{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    font-size: 3em;
+}
+.contenedor-email,.contenedor-phone{
+    color: aliceblue;
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
+
+.Contenedor-Derechos{
+    color: aliceblue ;
+    position: relative;
+    top: 40px;
+}
+.habilidades-section{
+    position: relative;
+    top: 215px;
+    left: 150px;
+    display: flex;
+}
+.texto-habiliadades{
+    position: relative;
+    left: -18px;
+}
